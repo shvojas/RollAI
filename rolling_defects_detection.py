@@ -64,7 +64,7 @@ def severity(xyxy, shape):
 
 # --- 3 App Header ---
 st.title("Rolling Defects Detection System")
-st.subheader("Made by Shvojas Aditya Reg No: 23BME1195 , Saptarishi Pal 23BME1188 , Gursehaj 22BME1109")
+st.subheader("Made by Shvojas Aditya Reg No: 23BME1195 , Suyash 22BCE1437")
 st.write("Upload a steel surface image to automatically detect and describe rolling defects using a YOLOv8 AI-based system.")
 
 uploaded = st.file_uploader("Upload Image", type=["jpg", "jpeg", "png", "bmp"])
@@ -123,3 +123,4 @@ if uploaded:
             file_name="rolling_defects_detected.jpg",
             mime="image/jpeg"
         )
+
